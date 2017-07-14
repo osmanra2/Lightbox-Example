@@ -15,7 +15,7 @@ $(document).ready(function($) {
         if ($('#lightbox').length > 0) {
 
 
-            $('#content').html('<div class="ctbox">Lightbox example</div>');
+            $('#content').html('<div id="ctbox">Lightbox example</div>');
 
             //show lightbox window - you could use .show('fast') for a transition
             $('#lightbox').show();
