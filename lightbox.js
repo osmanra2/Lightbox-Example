@@ -1,6 +1,7 @@
 $(document).ready(function($) {
 
-    $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'http://localhost:8888/lightbox/lightbox.css') );
+    //has to be link to the css for example http://localhost:8888/lightbox/lightbox.css
+    $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'Put your link here') );
 
     $('body').append('<p><a href="#ct" class="lightbox_trigger">Lightbox Example</a></p>');
 
